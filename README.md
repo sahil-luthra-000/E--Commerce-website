@@ -17,7 +17,7 @@ Welcome to the **Verve Bridge** e-commerce website project! This application is 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
-- **Payment Integration**: [Payment Provider] (e.g., Stripe, PayPal)
+
 
 ## Installation
 
