@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    height: 50px; /* Adjust the size as necessary */
+}
+
+.nav-profile {
+    height: 40px; /* Adjust the size as necessary */
+    cursor: pointer;
+}
