@@ -3,11 +3,11 @@
     width: 100%;
     max-width: 800px;
     padding: 30px 50px;
-    margin: 20px auto;
-    border-radius: 10px;
-    background: #f9f9f9; /* Light background */
-    border: 1px solid #e0e0e0; /* Softer border */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: white;
+    border: 1px solid #ccc; /* Border for visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
   }
   
   .addproduct-itemfield, .addproduct-price, .add-product-selector {
@@ -17,7 +17,6 @@
   .addproduct-itemfield p, .addproduct-price p {
     margin-bottom: 8px;
     font-weight: bold;
-    color: #333; /* Darker text color */
   }
   
   .addproduct-itemfield input, .add-product-selector {
@@ -25,64 +24,29 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    transition: border-color 0.3s; /* Smooth transition for focus */
-  }
-  
-  .addproduct-itemfield input:focus, .add-product-selector:focus {
-    border-color: #4CAF50; /* Highlight border on focus */
-    outline: none; /* Remove default outline */
   }
   
   .addproduct-thumnail-img {
     display: block;
     margin: 10px auto;
     cursor: pointer;
-    max-width: 150px; /* Set a fixed size for the thumbnail */
-    height: 150px; /* Maintain aspect ratio */
-    border: 1px solid #ccc; /* Add border to thumbnail */
-    border-radius: 6px;
-    object-fit: cover; /* Ensure the image fits well */
-    transition: transform 0.3s; /* Smooth transition for hover effect */
-  }
-  
-  .addproduct-thumnail-img:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    max-width: 100%;
+    height: auto;
   }
   
   .addproduct-btn {
     display: block;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background-color: #4CAF50;
     color: white;
     text-align: center;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px; /* Larger font for the button */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
   }
   
   .addproduct-btn:hover {
     background-color: #45a049;
-  }
-  
-  .addproduct-btn:active {
-    background-color: #3e8e41; /* Darker shade on click */
-  }
-  
-  /* Additional styling for better layout */
-  .addproduct-price {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .addproduct-price .addproduct-itemfield {
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  .addproduct-price .addproduct-itemfield:last-child {
-    margin-right: 0;
   }
   
